@@ -4,7 +4,7 @@ if not (getcustomasset and writefile and isfile) then
     LocalPlayer:Kick("Your executor is not supported!")
 end
 
-writefile("brainrot.mp3", "placeholder")
+writefile("brainrot.mp3", "https://github.com/SolyNot/brainrot/raw/refs/heads/main/brainrot.mp3")
 
 local count = 0
 while not isfile("brainrot.mp3") and count < 60 do
